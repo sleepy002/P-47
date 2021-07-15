@@ -1,2 +1,2 @@
-# P-47
-Best plane
+# doc_bot
+Discord bot
