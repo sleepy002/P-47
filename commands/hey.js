@@ -14,7 +14,7 @@ module.exports = {
       message.channel.send(`This is the args[2]: ${args[2]}`);
       message.channel.send(`This is the args[3]: ${args[3]}`);
       // if (!args[1])
-         // message.channel.send(`The plane says nothing because it's a plane`);
+          message.channel.send(`The plane says nothing because it's a plane`);
       // else
          // message.channel.send(`Hey ${args[1]}!`);
    },
