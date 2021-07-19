@@ -1,7 +1,7 @@
 const commons = require('../usefulmodules/common.js')
 
 module.exports = {
-   name: 'Barrel roll',
+   name: 'Do a barrel roll!',
    description: 'barrel roll.',
    usage: '[Plane does a barrel roll] ',
    example: 'Dinly.',
