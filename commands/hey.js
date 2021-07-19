@@ -7,7 +7,7 @@ module.exports = {
    example: 'Dinly.',
    execute(message, args) {
       if (!args[1])
-         message.channel.send(`The plane does nothing because it's a plane`);
+         message.channel.send(`The plane says nothing because it's a plane`);
       else
          message.channel.send(`Hey ${args[1]}!`);
    },
