@@ -1,8 +1,8 @@
 const commons = require('../usefulmodules/common.js')
 
 module.exports = {
-   name: 'hey',
-   description: 'Attacks.',
+   name: 'attack',
+   description: 'attacks.',
    usage: '[Blows something up] ',
    example: 'Dinly.',
    execute(message, args) {
