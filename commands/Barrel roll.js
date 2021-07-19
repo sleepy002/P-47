@@ -1,7 +1,7 @@
 const commons = require('../usefulmodules/common.js')
 
 module.exports = {
-   name: 'Do a barrel roll',
+   name: 'Doabarrelroll',
    description: 'barrel roll.',
    usage: '[Plane does a barrel roll] ',
    example: 'Dinly.',
@@ -21,6 +21,6 @@ module.exports = {
       // if (!args[1])
            message.channel.send(`The fighter pitches nose up and preforms a barrel roll.`);
       // else
-         // message.channel.send(Do a barrel roll ${args[1]}!`);
+         // message.channel.send(Doabarrelroll ${args[1]}!`);
    },
 }
