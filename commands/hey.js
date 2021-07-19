@@ -7,8 +7,8 @@ module.exports = {
    example: 'Dinly.',
    execute(message, args) {
       if (!args[1])
-         commons.respondToMessage(message, `Greetings!`);
+         message.channel.send(`Greetings!`);
       else
-         commons.respondToMessage(message, `Hey ${args[1]}!`);
+         message.channel.send(`Hey ${args[1]}!`);
    },
 }
