@@ -21,6 +21,6 @@ module.exports = {
       // if (!args[1])
            message.channel.send(`The fighter pitches nose up and preforms a barrel roll.`);
       // else
-         // message.channel.send(Do a barrel roll! ${args[1]}!`);
+         // message.channel.send(Do a barrel roll ${args[1]}!`);
    },
 }
