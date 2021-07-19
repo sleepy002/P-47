@@ -19,7 +19,7 @@ module.exports = {
       // message.channel.send(`This is the args[3]: ${args[3]}`);
       
       // if (!args[1])
-           message.channel.send(`The P-47 dives down and destroys the Axis tank`);
+           message.channel.send(`The P-47 dives down and destroys the Axis tank.`);
       // else
          // message.channel.send(`Attack ${args[1]}!`);
    },
