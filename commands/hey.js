@@ -7,9 +7,9 @@ module.exports = {
    example: 'Dinly.',
    execute(message, args) {
       
-      let firstNumber = 20;
-      let lol = 5;
-      let XDDD = 500;
+      let we = 4000;
+      let fox = 7;
+      let DX = 30;
       
       message.channel.send(firstNumber - lol);
       message.channel.send(lol + XDDD);
