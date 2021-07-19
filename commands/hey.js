@@ -7,14 +7,23 @@ module.exports = {
    example: 'Dinly.',
    execute(message, args) {
       
-      message.channel.send(`This is the message: ${message}`);
-      message.channel.send(`This is the args: ${args}`);
-      message.channel.send(`This is the args[0]: ${args[0]}`);
-      message.channel.send(`This is the args[1]: ${args[1]}`);
-      message.channel.send(`This is the args[2]: ${args[2]}`);
-      message.channel.send(`This is the args[3]: ${args[3]}`);
+      let name = 'Dinly';
+      let number = '15';
+      let garrison = 'Deltrada';
+      
+      message.channel.send(name);
+      message.channel.send(number);
+      message.channel.send(garrison);
+      
+      // message.channel.send(`This is the message: ${message}`);
+      // message.channel.send(`This is the args: ${args}`);
+      // message.channel.send(`This is the args[0]: ${args[0]}`);
+      // message.channel.send(`This is the args[1]: ${args[1]}`);
+      // message.channel.send(`This is the args[2]: ${args[2]}`);
+      // message.channel.send(`This is the args[3]: ${args[3]}`);
+      
       // if (!args[1])
-          message.channel.send(`The plane says nothing because it's a plane`);
+          // message.channel.send(`The plane says nothing because it's a plane`);
       // else
          // message.channel.send(`Hey ${args[1]}!`);
    },
