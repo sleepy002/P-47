@@ -11,10 +11,10 @@ module.exports = {
       let fox = 7;
       let DX = 30;
       
-      message.channel.send(firstNumber - lol);
-      message.channel.send(lol + XDDD);
-      message.channel.send(firstNumber * lol);
-      message.channel.send(XDDD / lol);
+      message.channel.send(we - fox);
+      message.channel.send(fox + DX);
+      message.channel.send(we * fox);
+      message.channel.send(DX / fox);
       
       
       
