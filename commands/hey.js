@@ -7,13 +7,16 @@ module.exports = {
    example: 'Dinly.',
    execute(message, args) {
       
-      let name = 'Dinly';
-      let number = '15';
-      let garrison = 'Deltrada';
+      let firstNumber = 20;
+      let lol = 5;
+      let XDDD = 500;
       
-      message.channel.send(name);
-      message.channel.send(number);
-      message.channel.send(garrison);
+      message.channel.send(firstNumber - lol);
+      message.channel.send(lol + XDDD);
+      message.channel.send(firstNumber * lol);
+      message.channel.send(XDDD / lol);
+      
+      
       
       // message.channel.send(`This is the message: ${message}`);
       // message.channel.send(`This is the args: ${args}`);
